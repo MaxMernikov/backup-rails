@@ -18,12 +18,12 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_runtime_dependency 'backup', '= 5.0.0.beta.2'
+  gem.add_runtime_dependency 'backup', '= 4.4.0'
   gem.add_runtime_dependency 'whenever'
   gem.add_runtime_dependency 'dotenv-rails'
-  gem.add_runtime_dependency 'fog', '= 1.40.0'
+  gem.add_runtime_dependency 'fog'
   gem.add_runtime_dependency 'net-ssh'
-  gem.add_runtime_dependency 'excon', '= 0.56.0'
-  gem.add_runtime_dependency 'mail', '>= 2.6.6', '~> 2.6'
+  gem.add_runtime_dependency 'excon'
+  gem.add_runtime_dependency 'mail'
 end
 
